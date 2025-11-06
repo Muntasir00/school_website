@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+
+@layer utilities {
+  .font-outfit {
+    font-family: 'Outfit', sans-serif;
+  }
+  .font-raleway {
+    font-family: 'Raleway', sans-serif;
+  }
+}
+
+.active {
+  background-color: #ffefe5;
+}
