@@ -28,3 +28,11 @@ export type faqCards = {
   question?: string;
   answer?: string;
 };
+
+export type teamcards = {
+  img?: string;
+  img_icon?: string;
+  name?: string;
+  body_heading?: string;
+  body?: string;
+};
