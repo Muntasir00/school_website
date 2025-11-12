@@ -11,7 +11,7 @@ const Hero = () => {
         </div>
 
         <div className='flex flex-col justify-center items-center max-w-[50%]'>
-          <div className='pt-[140px] pb-[140px]'>
+          <div className=''>
             <div className='flex flex-col gap-2'>
               <p className='border-b-2 text-[18px]  font-medium'>
                 Welcome to Little Learners Academy
