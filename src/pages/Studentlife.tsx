@@ -1,7 +1,5 @@
-import React from 'react';
-
 const Studentlife = () => {
-  return <div></div>;
+  return <div>Studentlife</div>;
 };
 
 export default Studentlife;

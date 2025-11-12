@@ -3,7 +3,7 @@ const SectionHero = ({ badgetitle, heroheading, herobody }: sectionHero) => {
   return (
     <div className='relative font-outfit flex gap-[50px] border-2 rounded-xl py-[150px] px-[120px] mt-[50px] shadow-[0_8px_8px_#1E1E1E] mx-[50px] bg-white'>
       <img
-        src='/src/assets/image/heroimage.svg'
+        src='/public/image/heroimage.svg'
         alt=''
         className='absolute top-0 left-0 h-[200px] w-[200px]'
       />

@@ -1,7 +1,5 @@
-import React from 'react';
-
 const Admissions = () => {
-  return <div></div>;
+  return <div>Admission</div>;
 };
 
 export default Admissions;
