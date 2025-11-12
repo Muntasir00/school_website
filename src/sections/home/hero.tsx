@@ -3,11 +3,7 @@ const Hero = () => {
     <div className='mx-20 xl:mx-40 mt-[60px] 2xl:mt-20'>
       <div className='flex gap-[50px]'>
         <div className='max-w-[50%]'>
-          <img
-            src='/public/image/left-hero.png'
-            alt='Left hero'
-            className='w-full'
-          />
+          <img src='/image/left-hero.png' alt='Left hero' className='w-full' />
         </div>
 
         <div className='flex flex-col justify-center items-center max-w-[50%]'>

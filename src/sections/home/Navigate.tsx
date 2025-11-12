@@ -13,22 +13,22 @@ const Navigate = () => {
         <NavigateCard
           title='About Us'
           body='Discover our Mission, Values, and our unwavering commitment to providing the best learning experience for your child. Learn about our passionate educators and our engaging approach to early education.'
-          img='/public/image/bar.svg'
+          img='/image/bar.svg'
         />
         <NavigateCard
           title='Academics'
           body='Discover our Mission, Values, and our unwavering commitment to providing the best learning experience for your child. Learn about our passionate educators and our engaging approach to early education.'
-          img='/public/image/bar.svg'
+          img='/image/bar.svg'
         />
         <NavigateCard
           title='Student Life'
           body='Discover our Mission, Values, and our unwavering commitment to providing the best learning experience for your child. Learn about our passionate educators and our engaging approach to early education.'
-          img='/public/image/bar.svg'
+          img='/image/bar.svg'
         />
         <NavigateCard
           title='Admissions'
           body='Discover our Mission, Values, and our unwavering commitment to providing the best learning experience for your child. Learn about our passionate educators and our engaging approach to early education.'
-          img='/public/image/bar.svg'
+          img='/image/bar.svg'
         />
       </div>
     </div>

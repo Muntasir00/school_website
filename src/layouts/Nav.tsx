@@ -7,14 +7,14 @@ const Nav = () => {
     <div className='font-outfit border-2 rounded-lg bg-white flex justify-between  ml-[50px] mr-[50px] mt-3.5 '>
       {/* left */}
       <div className='flex justify-center items-center border-r-2 bg-[#FF8D4D] px-5 py-6 gap-2.5'>
-        <img src='/public/image/logo.svg' alt='logo' />
+        <img src='/image/logo.svg' alt='logo' />
         <h2 className='text-[#262626]'>Little learners</h2>
       </div>
 
       {/* right */}
       <div className='flex items-center'>
         <div className='h-full flex justify-center items-center xl:hidden border-l-2 px-[30px] py-4 bg-[#FFEFE5] rounded-r-lg '>
-          <img src='/public/image/menu.svg' alt='' />
+          <img src='/image/menu.svg' alt='' />
         </div>
 
         {mainRoutes?.map(r => (

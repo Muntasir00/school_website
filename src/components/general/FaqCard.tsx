@@ -18,8 +18,8 @@ const FaqCard = ({ question, answer }: faqCards) => {
           className='flex justify-center items-center border-2 rounded-md bg-[#FFF5F0] p-2 cursor-pointer '
           onClick={handleClick}
         >
-          {!open && <img src='/public/image/plus.svg' alt='' />}
-          {open && <img src='/public/image/minus.svg' alt='' />}
+          {!open && <img src='/image/plus.svg' alt='' />}
+          {open && <img src='/image/minus.svg' alt='' />}
         </div>
       </div>
       {open && <p>{answer}</p>}

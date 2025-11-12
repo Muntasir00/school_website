@@ -13,32 +13,32 @@ const Benefit = () => {
         <BenefitCards
           title='Holistic Learning Approach'
           body='Our curriculum focuses on nurturing cognitive, social, emotional, and physical development, ensuring a well-rounded education.'
-          img='/public/image/benefit_1.svg'
+          img='/image/benefit_1.svg'
         />
         <BenefitCards
           title='Holistic Learning Approach'
           body='Our curriculum focuses on nurturing cognitive, social, emotional, and physical development, ensuring a well-rounded education.'
-          img='/public/image/benefit_2.svg'
+          img='/image/benefit_2.svg'
         />
         <BenefitCards
           title='Holistic Learning Approach'
           body='Our curriculum focuses on nurturing cognitive, social, emotional, and physical development, ensuring a well-rounded education.'
-          img='/public/image/benifit_3.svg'
+          img='/image/benifit_3.svg'
         />
         <BenefitCards
           title='Holistic Learning Approach'
           body='Our curriculum focuses on nurturing cognitive, social, emotional, and physical development, ensuring a well-rounded education.'
-          img='/public/image/benefit_1.svg'
+          img='/image/benefit_1.svg'
         />
         <BenefitCards
           title='Holistic Learning Approach'
           body='Our curriculum focuses on nurturing cognitive, social, emotional, and physical development, ensuring a well-rounded education.'
-          img='/public/image/benefit_1.svg'
+          img='/image/benefit_1.svg'
         />
         <BenefitCards
           title='Holistic Learning Approach'
           body='Our curriculum focuses on nurturing cognitive, social, emotional, and physical development, ensuring a well-rounded education.'
-          img='/public/image/benefit_1.svg'
+          img='/image/benefit_1.svg'
         />
       </div>
     </div>

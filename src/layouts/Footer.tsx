@@ -8,11 +8,7 @@ const Footer = () => {
         <div className='flex flex-col  2xl:max-w-[529px] xl: max-w-[393px] mb-5'>
           <div className='flex flex-col gap-5'>
             <div className='flex gap-2 flex-start items-center'>
-              <img
-                src='/public/image/logo.svg'
-                alt='log'
-                className='size-[40]'
-              />
+              <img src='/image/logo.svg' alt='log' className='size-[40]' />
               <h1 className='font-bold text-[#4C4C4D] text-2xl'>
                 Little Learners
               </h1>
@@ -28,7 +24,7 @@ const Footer = () => {
           <div className='flex flex-col gap-6 mt-[30px]'>
             <div className='flex gap-2.5 items-center'>
               <div className='flex justify-center items-center border-2 rounded-md p-2 bg-[#FFF5F0]'>
-                <img src='/public/image/message.svg' alt='message' />
+                <img src='/image/message.svg' alt='message' />
               </div>
               <p className='font-medium text-[16px] 2xl:text-[20px] text-[#333333]'>
                 hello@littlelearners.com
@@ -37,7 +33,7 @@ const Footer = () => {
 
             <div className='flex gap-2.5 items-center flex-start'>
               <div className='flex justify-center items-center border-2 rounded-md p-2 bg-[#FFF5F0]'>
-                <img src='/public/image/phone.svg' alt='message' />
+                <img src='/image/phone.svg' alt='message' />
               </div>
               <p className='font-medium text-[16px] 2xl:text-[20px] text-[#333333]'>
                 +91 91813 23 2309
@@ -46,7 +42,7 @@ const Footer = () => {
 
             <div className='flex gap-2.5 items-center'>
               <div className='flex justify-center items-center border-2 rounded-md p-2 bg-[#FFF5F0]'>
-                <img src='/public/image/location.svg' alt='message' />
+                <img src='/image/location.svg' alt='message' />
               </div>
               <p className='font-medium text-[16px] 2xl:text-[20px] text-[#333333]'>
                 Somewhere in the World
@@ -117,15 +113,15 @@ const Footer = () => {
 
           <div className=' flex gap-2.5  '>
             <div className='border-2 rounded-md bg-[#FFDECC] p-3.5'>
-              <img src='/public/image/fb.svg' alt='' />
+              <img src='/image/fb.svg' alt='' />
             </div>
 
             <div className='border-2 rounded-md bg-[#FFDECC] p-3.5'>
-              <img src='/public/image/twiter.svg' alt='' />
+              <img src='/image/twiter.svg' alt='' />
             </div>
 
             <div className='border-2 rounded-md bg-[#FFDECC] p-3.5'>
-              <img src='/public/image/linkedIn.svg' alt='' />
+              <img src='/image/linkedIn.svg' alt='' />
             </div>
           </div>
         </div>

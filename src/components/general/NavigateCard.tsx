@@ -11,7 +11,7 @@ const NavigateCard = ({ title, body, img }: benefitCards) => {
       </p>
       <div className='flex border-2 rounded-[10px] mt-5 bg-[#FFDECC] items-center justify-center pt-[18px] pb-[18px] w-full shadow-[0_4px_4px_#1E1E1E]'>
         <p>Learn More</p>
-        <img src='/public/image/arrow right.svg' alt='' />
+        <img src='/image/arrow right.svg' alt='' />
       </div>
     </div>
   );
