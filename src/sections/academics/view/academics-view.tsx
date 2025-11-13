@@ -1,5 +1,6 @@
 import SectionHero from '../../../components/general/SectionHero';
 import Feature from '../feature';
+import Gallery from '../gallery';
 import Learn from '../learn';
 
 export function AcademicsView() {
@@ -12,6 +13,7 @@ export function AcademicsView() {
       />
       <Feature />
       <Learn />
+      <Gallery />
     </div>
   );
 }

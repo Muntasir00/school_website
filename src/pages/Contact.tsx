@@ -1,5 +1,11 @@
+import { ContactView } from '../sections/contact/view';
+
 const Contact = () => {
-  return <div>Contact</div>;
+  return (
+    <div>
+      <ContactView />
+    </div>
+  );
 };
 
 export default Contact;
