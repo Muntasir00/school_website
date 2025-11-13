@@ -9,7 +9,7 @@ const Benefit = () => {
         badgeheader='Our Benefits'
         badgebody="With a dedicated team of experienced educators, state-of-the-art facilities, and a comprehensive curriculum, we aim to lay a strong foundation for your child's future."
       />
-      <div className='grid grid-cols-3 gap-10 mt-20'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 mt-20'>
         <BenefitCards
           title='Holistic Learning Approach'
           body='Our curriculum focuses on nurturing cognitive, social, emotional, and physical development, ensuring a well-rounded education.'

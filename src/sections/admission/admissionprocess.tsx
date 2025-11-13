@@ -10,7 +10,7 @@ const Admissionprocess = () => {
         badgebody='Embark on a remarkable educational journey with us! Our Admission and Enrollment process is the gateway to providing your child with an exceptional learning experience at our kindergarten school'
       />
 
-      <div className='grid grid-cols-3 gap-[50px] mx-40 mt-[100px]'>
+      <div className='grid gap-[50px] mt-[100px] mx-[16px] grid-col-1 lg:grid-cols-2 xl:grid-cols-3  mx-40 '>
         <Admissioncard
           cardnum='1'
           title='Inquiry'

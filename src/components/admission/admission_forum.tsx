@@ -1,7 +1,7 @@
 const Admissionforum = () => {
   return (
-    <div className='mt-[100px] flex flex-col gap-[60px] mx-20'>
-      <div className='flex flex-col border-2 rounded-[10px] bg-white gap-[30px] p-[50px] shadow-[0_4px_4px_#1E1E1E]'>
+    <div className='mt-[100px] flex flex-col gap-[60px] mx-20 flex-wrap'>
+      <div className='flex flex-col border-2 rounded-[10px] bg-white gap-[30px] p-[50px] shadow-[0_4px_4px_#1E1E1E] flex-wrap'>
         <div className='border-2 rounded-[10px] bg-[#FFFFFF]'>
           <ul className='flex bg-[#FFEFE5] w-full overflow-hidden'>
             <li className='border-r-2 pt-[18px] pb-[18px] pl-[30px] pr-[30px] flex-1'>
@@ -22,7 +22,7 @@ const Admissionforum = () => {
           </ul>
         </div>
 
-        <div className='grid grid-cols-5 rounded-[10px] border-2 bg-[#FFFCFA]'>
+        <div className='grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 rounded-[10px] border-2 bg-[#FFFCFA]'>
           <div className='border-r-2 border-b-2 pt-6 pb-6 pr-[30px] pl-[30px]'>
             Nursery
           </div>

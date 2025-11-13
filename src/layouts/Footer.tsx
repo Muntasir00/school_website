@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
 
           <div className='flex flex-col gap-6 mt-[30px]'>
-            <div className='flex gap-2.5 items-center'>
+            <div className='flex gap-2.5 items-center flex-start'>
               <div className='flex justify-center items-center border-2 rounded-md p-2 bg-[#FFF5F0]'>
                 <img src='/image/message.svg' alt='message' />
               </div>
@@ -103,9 +103,9 @@ const Footer = () => {
         </div>
       </div>
       {/* lower footer */}
-      <div className='flex flex-col gap-5'>
-        <div className='flex pt-5 pb-5 justify-between border-t-2 border-b-2 items-center'>
-          <div className='flex gap-2.5'>
+      <div className='flex flex-col gap-5 mt-[30px]'>
+        <div className='flex flex-col xl:flex-row pt-5 pb-5 justify-between border-t-2 border-b-2 items-center'>
+          <div className='flex gap-2.5 mb-[30px]'>
             <p className='text-[16px] border-r-2 pr-2'>Terms of Service</p>
             <p className='text-[16px] border-r-2 pr-2'>Privacy policy</p>
             <p className='text-[16px] '>Cookie policy</p>

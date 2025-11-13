@@ -9,7 +9,7 @@ const Activities = () => {
         badgeheader='Extracurricular Activities'
         badgebody='At Little Learners Academy, we believe in nurturing well-rounded individuals. Our extracurricular activities offer a diverse range of experiences that complement our academic curriculum and encourage students to explore their interests and passions. We offer a wide array of extracurricular activities, including'
       />
-      <div className='mt-[100px] grid grid-cols-3 gap-[50px] mx-40'>
+      <div className='mt-[100px]  gap-[50px] mx-[16px] grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3mx-40'>
         <Featurecard
           title='Sports and Athletics'
           body='Students can participate in various sports, from soccer and basketball to gymnastics and yoga. Sports help promote teamwork, physical fitness, and a sense of discipline.'

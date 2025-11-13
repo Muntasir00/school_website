@@ -1,6 +1,6 @@
 const Gallerycard = () => {
   return (
-    <div className='flex flex-col gap-30px px-10 pb-10 bg-white relative border-2 rounded-xl pt-[180px] mx-20 '>
+    <div className='flex flex-col gap-30px px-10 pb-10 bg-white relative border-2 rounded-xl pt-[180px] mx-20 mt-[210px]'>
       <div className='absolute left-10 -top-[30%]  overflow-hidden flex gap-10'>
         <img src='/image/gallery.svg' alt='' />
         <img src='/image/gallery_2.svg' alt='' />

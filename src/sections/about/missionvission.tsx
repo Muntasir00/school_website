@@ -9,7 +9,7 @@ const MissionVission = () => {
         badgeheader='Our Mission & Visions'
         badgebody='We are here to provide a nurturing and inclusive environment where young minds can thrive, fostering a love for learning and personal growth.'
       />
-      <div className='flex mx-40 mt-[100px] gap-[60px]'>
+      <div className='flex flex-col mx-[16px] lg:flex-row mx-40 mt-[100px] gap-[60px] flex-wrap'>
         <MissionCard
           title='Mission'
           img='/image/Icon.svg'

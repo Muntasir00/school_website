@@ -9,7 +9,7 @@ const Navigate = () => {
         badgeheader='Navigate through our Pages'
         badgebody='Your gateway to discovering a wealth of valuable information about our kindergarten school, Feel free to explore and learn more about the enriching experiences that await your child at our kindergarten school'
       />
-      <div className='grid grid-cols-2 gap-[50px] mt-[100px]'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-[50px] mt-[100px]'>
         <NavigateCard
           title='About Us'
           body='Discover our Mission, Values, and our unwavering commitment to providing the best learning experience for your child. Learn about our passionate educators and our engaging approach to early education.'

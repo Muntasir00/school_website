@@ -8,19 +8,19 @@ const ContactForm = () => {
         badgeheader='Student Information'
         badgebody='If you have specific questions or wish to request more information about Little Learners Academy, please complete the contact form below. Kindly provide the following details to help us better understand your needs'
       />
-      <div className='border-2 rounded-xl relative mt-[100px] mx-40 bg-white p-[100px] shadow-[0_8px_8px_#1E1E1E]'>
-        <div className='absolute border-2 rounded-md bg-[#FFDECC] -top-9 left-[330px] py-4 px-[50px] '>
+      <div className='border-2 rounded-xl relative mt-[100px]  bg-white p-[100px] shadow-[0_8px_8px_#1E1E1E] mx-[16px] xl:mx-40'>
+        <div className='absolute hidden lg:block border-2 rounded-md bg-[#FFDECC] -top-9 left-[330px] py-4 px-[50px] '>
           <img src='/image/fb.svg' />
         </div>
-        <div className='absolute border-2 rounded-md bg-[#FFDECC] -top-9 left-[520px] py-4 px-[50px] '>
+        <div className='absolute hidden lg:block border-2 rounded-md bg-[#FFDECC] -top-9 left-[520px] py-4 px-[50px] '>
           <img src='/image/twiter.svg' />
         </div>
-        <div className='absolute border-2 rounded-md bg-[#FFDECC] -top-9 left-[703px] py-4 px-[50px] '>
+        <div className='absolute hidden lg:block border-2 rounded-md bg-[#FFDECC] -top-9 left-[703px] py-4 px-[50px] '>
           <img src='/image/linkedIn.svg' />
         </div>
 
         <div className='grid grid-cols-2 gap-[50px]'>
-          <div className='flex flex-col gap-5'>
+          <div className='flex flex-col gap-5 flex-wrap'>
             <p className='font-semibold font-outfit text-[22px] text-[#4C4C4C]'>
               Parent Name
             </p>
@@ -28,7 +28,7 @@ const ContactForm = () => {
               Enter Parent Name
             </div>
           </div>
-          <div className='flex flex-col gap-5'>
+          <div className='flex flex-col gap-5 flex-wrap'>
             <p className='font-semibold font-outfit text-[22px] text-[#4C4C4C]'>
               Email Address
             </p>
@@ -36,7 +36,7 @@ const ContactForm = () => {
               Enter Email Address
             </div>
           </div>
-          <div className='flex flex-col gap-5'>
+          <div className='flex flex-col gap-5 flex-wrap'>
             <p className='font-semibold font-outfit text-[22px] text-[#4C4C4C]'>
               Phone Number
             </p>
@@ -44,7 +44,7 @@ const ContactForm = () => {
               Enter Phone Number
             </div>
           </div>
-          <div className='flex flex-col gap-5'>
+          <div className='flex flex-col gap-5 flex-wrap'>
             <p className='font-semibold font-outfit text-[22px] text-[#4C4C4C]'>
               Student Name
             </p>
@@ -52,7 +52,7 @@ const ContactForm = () => {
               Enter Student Name
             </div>
           </div>
-          <div className='flex flex-col gap-5'>
+          <div className='flex flex-col gap-5 flex-wrap'>
             <p className='font-semibold font-outfit text-[22px] text-[#4C4C4C]'>
               Student Age
             </p>
@@ -60,7 +60,7 @@ const ContactForm = () => {
               Enter Student Age
             </div>
           </div>
-          <div className='flex flex-col gap-5'>
+          <div className='flex flex-col gap-5 flex-wrap'>
             <p className='font-semibold font-outfit text-[22px] text-[#4C4C4C]'>
               Program of Intrest
             </p>

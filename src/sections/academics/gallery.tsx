@@ -10,7 +10,7 @@ const Gallery = () => {
         badgebody='Step into our Gallery and immerse yourself in a visual journey of cherished moments and unforgettable experiences at our kindergarten school.'
       />
 
-      <div className='flex gap-2.5 mx-[300px] items-center mt-[50px] cursor-pointer'>
+      <div className='flex gap-2.5 mx-[300px] items-center mt-[50px] cursor-pointer flex-wrap'>
         <div className='border-2 rounded-md bg-white py-2.5 px-4'>All</div>
         <div className='border-2 rounded-md bg-white py-2.5 px-4'>
           Classrooms
@@ -27,7 +27,7 @@ const Gallery = () => {
         </div>
       </div>
 
-      <div className='flex flex-col gap-[150px] mt-[200px]'>
+      <div className='flex flex-col gap-[150px] mt-[200px] hidden lg:block'>
         <Gallerycard />
         <Gallerycard />
         <Gallerycard />

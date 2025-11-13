@@ -15,7 +15,7 @@ export function Studentlifeview() {
       <Activities />
       <Events />
       <Support />
-      <div className='mt-[100px] grid grid-cols-3 mx-40 gap-10 mb-[100px]'>
+      <div className='mt-[100px] grid gap-10 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mx-40  mb-[100px]'>
         <Featurecard
           img='/image/support.svg'
           title='Counseling'

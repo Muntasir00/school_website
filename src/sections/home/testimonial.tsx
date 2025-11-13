@@ -10,7 +10,7 @@ const Testimonial = () => {
         badgebody='Our testimonials are heartfelt reflections of the nurturing environment we provide, where children flourish both academically and emotionally.'
       />
 
-      <div className='flex gap-[50px]'>
+      <div className='grid grid-cols-1 gap-[50px] lg:grid-cols-3'>
         <TestimonialCard
           img='/image/testimonial_card_img.svg'
           title='David K'

@@ -9,7 +9,7 @@ const Teammates = () => {
         badgeheader='Our Team Members'
         badgebody='At Little Learners Academy, our teaching team is the heart of our educational journey. We take great pride in employing highly qualified and passionate educators who possess a deep understanding of early childhood development. Our teachers create a warm and engaging atmosphere, encouraging curiosity, instilling confidence, and fostering a love for learning.'
       />
-      <div className='grid grid-cols-2 mx-40 mt-25 gap-[50px]'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 mx-[16px] xl:mx-40 mt-25 gap-[50px]'>
         <Teamcard
           img='/image/teammember.png'
           img_icon='/public/image/teamicon.svg'
