@@ -1,5 +1,7 @@
+import { AcademicsView } from '../sections/academics/view';
+
 const Academics = () => {
-  return <div>Academics </div>;
+  return <AcademicsView />;
 };
 
 export default Academics;

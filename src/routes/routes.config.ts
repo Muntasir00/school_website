@@ -7,6 +7,7 @@ import MainLayout from '../layouts/MainLayout';
 import Admissions from '../pages/Admissions';
 import Contact from '../pages/Contact';
 import Studentlife from '../pages/Studentlife';
+import Academics from '../pages/Academics';
 
 export const routes: RouteType[] = [
   {
@@ -15,7 +16,7 @@ export const routes: RouteType[] = [
     children: [
       { index: true, element: React.createElement(Home) },
       { path: 'about-us', element: React.createElement(About) },
-      { path: 'academics', element: React.createElement(About) },
+      { path: 'academics', element: React.createElement(Academics) },
       { path: 'admission', element: React.createElement(Admissions) },
       { path: 'student-life', element: React.createElement(Studentlife) },
       { path: 'contact-us', element: React.createElement(Contact) },

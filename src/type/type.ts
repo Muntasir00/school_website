@@ -36,3 +36,9 @@ export type teamcards = {
   body_heading?: string;
   body?: string;
 };
+
+export type admissionCards = {
+  cardnum?: string;
+  title?: string;
+  body?: string;
+};

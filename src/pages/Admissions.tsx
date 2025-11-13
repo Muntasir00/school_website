@@ -1,5 +1,11 @@
+import { AdmissionView } from '../sections/admission/view';
+
 const Admissions = () => {
-  return <div>Admission</div>;
+  return (
+    <div>
+      <AdmissionView />
+    </div>
+  );
 };
 
 export default Admissions;
